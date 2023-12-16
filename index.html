@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   function fn() {
+      // let b = 104;
+      //   console.log(b);
+      // }
+
+      // fn();
+      //const fn = (arguments) => {
+      //let a = 34;
+      // return a;
+      //};
+      //console.log(fn(4));
+      // let i = 0
+      //while (i < 3) {//выводит 0, затем  1, затеем 2
+      //   consol.log(i);
+      //  i++;}
+      //let man = {
+      //  имя: 'Abdurahman',
+      //  фамилия: 'Atgeriev',
+      //  логин: 'Afrikanec',
+      //  пароль: 929292,
+      //    возраст: '17age',
+      //   name: 'Abdurahman',
+      //   userName: 'Atgeriev',
+      //  login: 'Afrikanec',
+      //    password: 929292,
+      //    age: '17age',
+      //    dollars: 100000000000,
+      //   address: {
+      //   адрес: 'afrika'
+      //
+      //    }
+      //   }
+      //  console.log(man.location())
+      // let введеный_пароль = 929292
+      //if (введеный_пароль === man.пароль) {
+      //  let introduced_password = 929292
+      //  if (introduced_password === man.password) {
+      //  console.log(
+      //      `Добро пожаловать,${man.имя},${man.фамилия},ваш логин ,${man.логин}`)
+      // } else { console.log(`Указанный пароль , ${введеный_пароль},не верный. Попробуйте еще раз`) }
+      //        `Добро пожаловать,${man.name},${man.userName},ваш логин ,${man.login}`)
+      // } else { console.log(`Указанный пароль , ${introduced_password},не верный. Попробуйте еще раз`)
+      // let list = {
+      //   rename: "atgeriev",
+      //  adres: "moscow",
+      //  car: "mersedes",
+      // "LIKES JAVASCRIPT": true,
+      //  address: {
+      //   city: "dubai",
+      //  },
+      //  };
+      //  console.log(list);
+      //  console.log(list.rename);
+      // console.log(list["LIKES JAVASCRIPT"]);
+      //  key = "adres";
+      //  console.log(list[key]);
+      // function makeuser(name, age) {
+      //  return {
+      //   name,
+      //  age,
+      //  };//
+      //}
+      //  makeuser.car = " Mersedes";
+      //  delete makeuser.age;
+      //  console.log(makeuser);
+      //  let user = makeuser("abdu", 17);
+      //  console.log(user);
+      let name = "abdurahman"; //string
+      const age = 17; //number
+      if (age < 15) {
+        console.log("доступ запрещен");
+      } else {
+        console.log("Привет" + name);
+      }
+      function viewMoney() {
+        console.log("Вот вам 10$");
+      }
+
+      viewMoney();
+
+      function getMoney() {
+        return "Вот вам 10$";
+      }
+
+      console.log(getMoney());
+      function getMoney(cash) {
+        return "Вот вам " + cash + "$";
+      }
+
+      console.log(getMoney(399));
+      console.log(getMoney(100));
+      console.log(getMoney(0));
+
+      function printSquare(num) {
+        console.log(num * num);
+      }
+
+      printSquare(2);
+      function printNumber(num1, num2) {
+        console.log(Math.max(num1, num2));
+      }
+
+      printNumber(10, 20);
+
+      function process(a, b) {
+        if (a % 2 === 0 && b % 2 === 0) {
+          return a * b;
+        } else if (a % 2 !== 0 && b % 2 !== 0) {
+          return a + b;
+        } else if (a % 2 !== 0 && b % 2 === 0) {
+          return a;
+        } else {
+          return b;
+        }
+      }
+    </script>
+  </body>
+</html>
